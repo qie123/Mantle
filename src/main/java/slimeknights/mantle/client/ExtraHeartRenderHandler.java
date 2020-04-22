@@ -202,7 +202,7 @@ public class ExtraHeartRenderHandler {
     int regenOffset = absorb ? 10 : 0;
     for(int iter = 0; iter < count / 20; iter++) {
       int renderHearts = (count - 20 * (iter + 1)) / 2;
-      int heartIndex = iter % 11;
+      int heartIndex = iter % 22;
       if(renderHearts > 10) {
         renderHearts = 10;
       }
